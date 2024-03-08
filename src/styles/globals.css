@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Kode_Mono";
+  src: url("../../public/fonts/Kode_Mono/static/KodeMono-Regular.ttf")
+    format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Kode_Mono";
+  src: url("../../public/fonts/Kode_Mono/static/KodeMono-Medium.ttf")
+    format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Kode_Mono";
+  src: url("../../public/fonts/Kode_Mono/static/KodeMono-Bold.ttf")
+    format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+.full-screen-bg-image {
+  background-image: url("../../public/main-bg-img2.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 92vh;
+}
+
+.font-primary-one
+{
+    font-family: 'Kode_Mono';
+}
+::-webkit-scrollbar {
+  display: none;
+}
